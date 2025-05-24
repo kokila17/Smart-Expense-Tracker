@@ -1,5 +1,4 @@
 # Smart-Expense-Tracker
-# Smart Expense Tracker
 
 A simple and visually appealing web app to track your expenses and manage your budget effectively.
 
