@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Expense Tracker</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Expense Tracker</h1>
+    <form id="expense-form">
+      <input type="number" id="amount" placeholder="Initial Amount" required />
+      <input type="text" id="amount spent" placeholder="Amount spent" required />
+      <input type="text" id="description" placeholder="Description" required />
+      <input type="date" id="date" required />
+      <button type="submit">Add Expense</button>
+    </form>
+    
+    <div class="summary">
+      <h2>Summary</h2> 
+      <p>Total Amount: ₹<span id="total">0</span></p>
+    </div>
+    
+    <ul id="expense-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
